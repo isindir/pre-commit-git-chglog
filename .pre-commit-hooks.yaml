@@ -1,0 +1,5 @@
+- id: git-chglog
+  name: 'git-chglog'
+  entry: run-git-chglog.sh
+  language: 'script'
+  description: "Runs `git-chglog`, requires `git-chglog`"
