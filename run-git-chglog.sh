@@ -2,7 +2,7 @@
 
 failed=false
 
-git-chglog > CHANGELOG.md
+git-chglog -o CHANGELOG.md
 if [[ $? -ne 0 ]]; then
     failed=true
 fi
